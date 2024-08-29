@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="list">
+    <h1>TO DO LIST</h1>
+    <h2>{{ tarefa }}</h2>
+    <input [(ngModel)]="tarefa" type="text"  (keyup.enter)="adicionar()">
+    <button (click)="adicionar()" class="btnadd" type="button">Adicionar</button>
+    <ul>
+      <li *ngFor="let tarefa of tarefas; let i = index">
+        {{ tarefa }}
+        <button (click)="remover(i)" class="btndelete" type="button">Excluir</button>
+    </ul>
+  </div>
+</div>

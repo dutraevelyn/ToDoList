@@ -1,0 +1,78 @@
+
+.list{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vw;
+    background-color: rgb(246, 237, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    color: rgb(41, 7, 72);
+}
+
+h2{
+    font-size: 0px;
+    visibility: hidden;
+}
+
+.btnadd{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btnadd:hover{
+    transition: 0.5s;
+    background-color: rgb(98, 31, 161);
+}
+
+.btndelete{
+    color: rgb(98, 31, 161);
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btndelete:hover{
+    color: rgb(159, 111, 203);
+    transition: 0.5s;
+}
+
+input{
+    padding-left: 10px;
+    margin-top: 20px;
+    height: 30px;
+    border-style: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 425px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding: 0; 
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgb(213, 193, 232);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    text-align: center;
+}
