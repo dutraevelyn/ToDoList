@@ -1,4 +1,4 @@
-## Projeto To Do List 
+## Projeto To Do List 📝
 
 - 🖥️ Projeto feito para colocar meus conhecimentos em prática, utilizando Angular, framework que estou me especializando.
 
